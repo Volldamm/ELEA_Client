@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.elea.activities.messages.NewMessageActivity">
+
+    <item android:id="@+id/upperMenuSearch"
+        android:icon="@drawable/ic_search"
+        android:title="@string/main_menu_search_button_text"
+        android:showAsAction="always" />
+
+    <item
+        android:id="@+id/upperMenuNewJob"
+        android:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/upper_menu_new_job"/>
+    <item
+        android:id="@+id/upperMenuMyJobs"
+        android:showAsAction="never"
+        android:icon="@android:drawable/btn_dialog"
+        android:title="@string/upper_menu_my_jobs"/>
+
+    <item
+        android:id="@+id/upperMenuFavorites"
+        android:showAsAction="never"
+        android:icon="@android:drawable/btn_dialog"
+        android:title="@string/upper_menu_favorites"/>
+
+    <item
+        android:id="@+id/upperMenuMyProfile"
+        android:showAsAction="never"
+        android:icon="@android:drawable/btn_dialog"
+        android:title="@string/upper_menu_user_profile"/>
+
+    <item
+        android:id="@+id/upperMenuLogout"
+        android:showAsAction="never"
+        android:icon="@android:drawable/btn_dialog"
+        android:title="@string/upper_menu_logout"/>
+
+    <item
+        android:id="@+id/upperMenuExit"
+        android:showAsAction="never"
+        android:icon="@android:drawable/btn_dialog"
+        android:title="@string/upper_menu_exit"/>
+
+</menu>

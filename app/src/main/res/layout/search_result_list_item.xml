@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WrapBoth"
+    >
+
+    <ImageView
+        android:id="@+id/searchResultEdit"
+        style="@style/SearchResultEdit" />
+
+    <ImageView
+        android:id="@+id/searchResultDelete"
+        style="@style/SearchResultDelete" />
+
+    <TextView
+        android:id="@+id/searchResultTitle"
+        style="@style/SearchResultTitle" />
+
+    <ImageView
+        android:id="@+id/searchResultEmail"
+        style="@style/SearchResultEmail" />
+
+    <CheckBox
+        android:id="@+id/searchResultStar"
+        style="@style/SearchResultStar" />
+
+    <TextView android:id="@+id/searchResultSubTitle"
+        style="@style/SearchResultSubTitle" />
+
+    <TextView android:id="@+id/searchResultSinceWhen"
+        style="@style/SearchResultSinceWhen" />
+
+</RelativeLayout>

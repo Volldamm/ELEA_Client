@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="0dip"
+            android:background="@color/headerRed">
+
+            <TextView
+                style="@style/LinearLayoutHeader"
+                android:id="@+id/jobViewOfferDemand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:text="se ofrece"
+                android:padding="0dip" />
+
+            <TextView
+                style="@style/LinearLayoutHeader"
+                android:id="@+id/jobViewTitleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dip"
+                android:text="0123456789 0123456789 0123456789 0123456789 012345"
+                android:padding="0dip" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/backgroundGrey" >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/backgroundGrey"
+                android:padding="15dip"
+                android:stretchColumns="1" >
+                <!--*************************************** Descripcion ***********************************************-->
+                <TableRow
+                    android:layout_marginBottom="0dip"
+                    android:background="@drawable/rounded_borders"
+                    >
+
+                    <TextView
+                        style="@style/JobViewRowHeader"
+                        android:padding="7dip"
+                        android:text="@string/job_details_description_text" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="10dip"
+                    android:background="@color/backgroundGrey">
+
+                    <TextView
+                        android:id="@+id/jobViewDescriptionText"
+                        android:layout_width="0dip"
+                        android:layout_span="2"
+                        android:gravity="left"
+                        android:padding="7dip" />
+                </TableRow>
+                <!--*************************************** Localizacion ***********************************************-->
+                <TableRow
+                    android:layout_marginBottom="0dip"
+                    android:background="@drawable/rounded_borders" >
+
+                    <TextView
+                        style="@style/JobViewRowHeader"
+                        android:padding="7dip"
+                        android:text="@string/job_details_location_text" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="10dip"
+                    android:background="@color/backgroundGrey">
+
+                    <TextView
+                        android:id="@+id/jobViewLocationText"
+                        android:layout_width="0dip"
+                        android:layout_span="2"
+                        android:gravity="right"
+                        android:padding="7dip"/>
+                </TableRow>
+                <!--*************************************** Metodo de pago ***********************************************-->
+                <TableRow
+                    android:layout_marginBottom="0dip"
+                    android:background="@drawable/rounded_borders" >
+
+                    <TextView
+                        style="@style/JobViewRowHeader"
+                        android:padding="7dip"
+                        android:text="@string/job_details_payment_mode_text" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="10dip"
+                    android:background="@color/backgroundGrey">
+
+                    <TextView
+                        android:id="@+id/jobViewPaymentModeText"
+                        android:layout_width="0dip"
+                        android:layout_span="2"
+                        android:gravity="right"
+                        android:padding="7dip"/>
+                </TableRow>
+                <!--*************************************** Fecha de publicacion ***********************************************-->
+                <TableRow
+                    android:layout_marginBottom="0dip"
+                    android:background="@drawable/rounded_borders" >
+
+                    <TextView
+                        style="@style/JobViewRowHeader"
+                        android:padding="7dip"
+                        android:text="@string/job_details_publish_date_text" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="10dip"
+                    android:background="@color/backgroundGrey">
+
+                    <TextView
+                        android:id="@+id/jobViewPublishDate"
+                        android:layout_width="0dip"
+                        android:layout_span="2"
+                        android:gravity="right"
+                        android:padding="7dip"/>
+                </TableRow>
+
+                <!--<TableRow-->
+                    <!--android:layout_marginBottom="10dip"-->
+                     <!-->-->
+
+                    <!--<TextView-->
+                        <!--style="@style/JobViewRowHeader"-->
+                        <!--android:padding="7dip"-->
+                        <!--android:background="@color/headerRed"-->
+                        <!--android:text="LOCALIZACION" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/log_id"-->
+                        <!--style="@style/JobViewRowDetail"-->
+                        <!--android:gravity="right"-->
+                        <!--android:padding="7dip"-->
+                        <!--android:singleLine="true" />-->
+                <!--</TableRow>-->
+
+                <!--<TableRow android:background="@color/abc_input_method_navigation_guard" >-->
+
+                    <!--<TextView-->
+                        <!--style="@style/JobViewRowHeader"-->
+                        <!--android:layout_span="2"-->
+                        <!--android:padding="7dip"-->
+                        <!--android:text="texto 5" />-->
+                <!--</TableRow>-->
+
+                <!--<TableRow-->
+                    <!--android:layout_marginBottom="10dip"-->
+                    <!--android:background="@color/ALERT" >-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/log_message"-->
+                        <!--style="@style/JobViewRowDetail"-->
+                        <!--android:layout_span="2"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:padding="7dip" />-->
+                <!--</TableRow>-->
+
+                <!--<TableRow-->
+                    <!--android:layout_marginBottom="10dip"-->
+                    <!--android:background="@color/purple_start" >-->
+
+                    <!--<TextView-->
+                        <!--style="@style/JobViewRowHeader"-->
+                        <!--android:padding="7dip"-->
+                        <!--android:text="texto 6" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/log_priority"-->
+                        <!--style="@style/JobViewRowDetail"-->
+                        <!--android:gravity="right"-->
+                        <!--android:padding="7dip"-->
+                        <!--android:singleLine="true" />-->
+                <!--</TableRow>-->
+
+                <!--<TableRow-->
+                    <!--android:layout_marginBottom="10dip"-->
+                    <!--android:background="@color/purple_start" >-->
+
+                    <!--<TextView-->
+                        <!--style="@style/JobViewRowHeader"-->
+                        <!--android:padding="7dip"-->
+                        <!--android:text="texto 7" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/log_priority_name"-->
+                        <!--style="@style/JobViewRowDetail"-->
+                        <!--android:gravity="right"-->
+                        <!--android:padding="7dip"-->
+                        <!--android:singleLine="true" />-->
+                <!--</TableRow>-->
+
+                <!--<TableRow-->
+                    <!--android:layout_marginBottom="0dip"-->
+                    <!--android:background="@color/WARN" >-->
+
+                    <!--<TextView-->
+                        <!--style="@style/JobViewRowHeader"-->
+                        <!--android:padding="7dip"-->
+                        <!--android:text="texto 8" />-->
+                <!--</TableRow>-->
+
+                <!--<TableRow-->
+                    <!--android:layout_marginBottom="10dip"-->
+                    <!--android:background="@color/ALERT" >-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/log_timestamp"-->
+                        <!--style="@style/JobViewRowDetail"-->
+                        <!--android:layout_span="2"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:padding="7dip" />-->
+                <!--</TableRow>-->
+            </TableLayout>
+        </ScrollView>
+    </LinearLayout>
+
+

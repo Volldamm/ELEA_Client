@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ELEA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+
+
+    <!-- ***************************************************************************   Menu Principal -->
+    <string name="main_menu_search_toggle_button">Busco Trabajo</string>
+    <string name="main_menu_offer_toggle_button">Ofrezco Trabajo</string>
+    <string name="main_menu_de_text">De</string>
+    <string name="main_menu_en_text">En</string>
+    <string name="main_menu_province_text">Provincia</string>
+    <string name="main_menu_town_text">Localidad</string>
+    <string name="main_menu_province_prompt">Elija una provincia</string>
+    <string name="main_menu_town_prompt">Elija una localidad</string>
+
+    <string name="main_menu_search_button_text">Buscar</string>
+    <string name="main_menu_init_session_button_text">Iniciar Sesión</string>
+
+
+    <!-- FIN Menu Principal -->
+
+
+
+    <!-- ***************************************************************************   Lista Resultados -->
+    <string name="result_list_header_text_results">Resultados</string>
+    <string name="result_list_header_text_searching">Buscando...</string>
+    <string name="result_list_header_text_favorites">Favoritos</string>
+    <string name="result_list_header_text_my_jobs">Mis anuncios</string>
+    <string name="result_list_results_text">Resultados de la búsqueda</string>
+    <string name="result_list_no_results">No se encontrado ningún resultado con los parámetros introducidos</string>
+    <string name="result_list_no_my_jobs">Aún no has creado ninguna oferta o demanda</string>
+    <string name="result_list_no_favorites">No tienes favoritos</string>
+    <string name="result_list_add_favorite">Añadido a favoritos</string>
+    <string name="result_list_del_favorite">Eliminado de favoritos</string>
+    <!-- FIN Lista Resultados -->
+
+
+    <!-- ***************************************************************************   Detalles trabajo -->
+
+    <string name="title_activity_job_details">JobDetailsActivity</string>
+
+    <string name="job_details_new_job_title">Nuevo Trabajo</string>
+    <string name="job_details_modify_job_title">Modificar Trabajo</string>
+
+    <string name="job_details_new_text">Nueva</string>
+    <string name="job_details_modify_text">Modificar</string>
+
+    <string name="job_details_offer_text">Oferta</string>
+    <string name="job_details_demand_text">Demanda</string>
+    <string name="job_details_title_text">Título</string>
+    <string name="job_details_payment_mode_text">Método de pago</string>
+    <string name="job_details_payment_mode_default_text">Escoger...</string>
+    <string name="job_details_payment_mode_H_text">Por Horas</string>
+    <string name="job_details_payment_mode_D_text">Por Días</string>
+    <string name="job_details_payment_mode_J_text">Trabajo Completo</string>
+    <string name="job_details_payment_mode_C_text">A Convenir</string>
+    <string name="job_details_amount_text">Cantidad</string>
+    <string name="job_details_description_text">Descripción</string>
+
+    <string name="job_details_province_text">Provincia</string>
+    <string name="job_details_town_text">Localidad</string>
+    <string name="job_details_province_prompt">Elija una provincia</string>
+    <string name="job_details_town_prompt">Elija una localidad</string>
+
+    <string name="job_details_demand_radio">Busco Trabajo</string>
+    <string name="job_details_offer_radio">Doy Trabajo</string>
+    <string name="job_details_is_active">Activa</string>
+    <string name="job_details_job_inserted">Oferta creada con éxito</string>
+    <string name="job_details_job_inserted_KO">Error al crear oferta</string>
+    <string name="job_details_job_modified">Oferta modificada con éxito</string>
+    <string name="job_details_job_modified_KO">Error al modificar la oferta</string>
+
+    <string name="job_error_title">Error</string>
+    <string name="job_error_no_title">El campo título es obligatorio</string>
+    <string name="job_error_max_title">El tamaño máximo del campo título es de 50 carácteres</string>
+
+    <string name="job_error_no_description">El campo descripción es obligatorio</string>
+    <string name="job_error_max_description">El tamaño máximo del campo descripción es de 4000 carácteres</string>
+
+    <string name="job_details_location_text">Localización</string>
+    <string name="job_details_publish_date_text">Fecha de publicación</string>
+    <string name="job_details_search_title">Busco Trabajo: </string>
+    <string name="job_details_offer_title">Ofrezco Trabajo: </string>
+
+    <string name="job_details_cantact">Contactar con el anunciante</string>
+    <!-- FIN Detalles trabajo -->
+
+    <!-- ***************************************************************************   Perfil Usuario -->
+    <string name="user_profile_title">Perfil</string>
+    <string name="user_profile_email">Email</string>
+    <string name="user_profile_password">Contraseña</string>
+    <string name="user_profile_password_confirm">Repetir contraseña</string>
+    <string name="user_profile_email_notification">Notificar ofertas por correo</string>
+    <string name="user_profile_device_notification">Notificar ofertas al móvil</string>
+    <string name="user_profile_save">Guardar</string>
+    <string name="user_profile_cancel">Cancelar</string>
+
+    <string name="user_profile_error_title">Error</string>
+    <string name="user_profile_error_email_format">Formato de email erróneo</string>
+    <string name="user_profile_error_password_no_match">Las contraseñas no coinciden</string>
+    <string name="user_profile_error_db">Se ha producido un error, vuelve a intentarlo</string>
+    <string name="user_profile_error_existing_email">Ya existe una cuenta con ese email</string>
+    <string name="user_profile_blank_email">El campo email es obligatorio</string>
+
+    <!-- ***************************************************************************   Registro -->
+    <string name="register_email">Email</string>
+    <string name="register_email_confirm">Confirmar Email</string>
+    <string name="register_password">Contraseña</string>
+    <string name="register_password_confirm">Repetir contraseña</string>
+    <string name="register_register_button">Registrate</string>
+    <string name="register_login_text">Ya tienes cuenta! Accede!</string>
+    <string name="register_error_title">Error en el registro</string>
+    <string name="register_error_blank_fields">Todos los campos son obligatorios</string>
+    <string name="register_error_email_format">Formato de email erróneo</string>
+    <string name="register_error_email_no_match">Los email no coinciden</string>
+    <string name="register_error_password_no_match">Las contraseñas no coinciden</string>
+    <string name="register_error_db">Se ha producido un error, vuelve a intentarlo</string>
+    <string name="register_error_existing_email">Ya existe una cuenta con ese email</string>
+    <string name="register_successful">Te has registrado con éxito</string>
+    <!-- ***************************************************************************   Login -->
+    <string name="login_email">Email</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_register">Registrate</string>
+    <string name="login_send">Enviar</string>
+
+    <!-- ***************************************************************************   TITULOS ACTIVITY -->
+    <string name="title_activity_user_profile_menu">Mi perfil</string>
+    <string name="title_activity_job_search_menu">JobSearchMenuActivity</string>
+    <string name="title_activity_employee_search_menu">EmployeeSearchMenuActivity</string>
+    <string name="title_activity_messages_menu">Mis Mensajes</string>
+    <string name="title_activity_search_result_list">SearchResultListActivity</string>
+
+
+
+    <!-- ***************************************************************************   Menu superior -->
+    <string name="upper_menu_my_jobs">Mis anuncios</string>
+    <string name="upper_menu_my_messages">Mis mensajes</string>
+    <string name="upper_menu_favorites">Favoritos</string>
+    <string name="upper_menu_user_profile">Mi Perfil</string>
+    <string name="upper_menu_new_job">Nuevo Trabajo</string>
+    <string name="upper_menu_logout">Cerrar Sesión</string>
+    <string name="upper_menu_exit">Salir</string>
+
+    <string name="upper_menu_login_error">Debes iniciar sesión</string>
+
+    <!-- ***************************************************************************   Mensajes emergentes -->
+    <string name="exit_app_title">Confirmación</string>
+    <string name="exit_app_text">¿Desea salir de la aplicación?</string>
+
+    <string name="logout_title">Confirmación</string>
+    <string name="logout_text">¿Desea cerrar la sesión?</string>
+
+    <string name="login_error_title">Error</string>
+    <string name="login_error_text">Usuario y/o contraseña inválidos</string>
+
+    <string name="delete_job_title">Borrar Oferta</string>
+    <string name="delete_job_text">¿Desea borrar la oferta?</string>
+
+    <!-- ***************************************************************************   Otros -->
+    <string name="main_menu_exit_button">Salir</string>
+    <string name="title_activity_user_profile">Mi Perfil</string>
+    <string name="title_activity_login">Acceso</string>
+    <string name="title_activity_register">Registro</string>
+
+    <!-- ***************************************************************************   Mis mensajes -->
+    <string name="title_activity_new_message">Nuevo mensaje</string>
+    <string name="my_messages_new_message">Nuevo Mensaje</string>
+
+
+    <string name="my_messages_new_message_header">Anuncio </string>
+
+    <string name="my_messages_new_message_default_text_offer">Estoy interesado en su oferta de empleo </string>
+    <string name="my_messages_new_message_default_text_demand">Estoy interado en contar con sus servicios como </string>
+
+    <string name="my_messages_inbox">Recibidos</string>
+    <string name="my_messages_outbox">Enviados</string>
+    <string name="my_messages_deleted">Borrados</string>
+    <string name="my_messages_subject">Asunto</string>
+    <string name="my_messages_message">Mensaje</string>
+    <string name="my_messages_send">Enviar</string>
+    <string name="my_messages_cancel">Cancelar</string>
+
+    <string name="my_messages_error_title">Error en el envío</string>
+
+    <string name="my_messages_error_no_subject">El campo asunto es obligatorio</string>
+    <string name="my_messages_error_max_subject">El tamaño máximo del campo asunto es de 100 carácteres</string>
+
+    <string name="my_messages_error_no_message">El campo mensaje es obligatorio</string>
+    <string name="my_messages_error_max_message">El tamaño máximo del campo mensaje es de 4000 carácteres</string>
+
+    <string-array name="messages_menu">
+        <item id="inbox">Recibidos</item>
+        <item id="outbox">Enviados</item>
+        <item id="deleted">Borrados</item>
+    </string-array>
+
+    <!-- ***************************************************************************   Comunes -->
+    <string name="common_text_error">Error</string>
+    <string name="common_text_in">en</string>
+    <string name="common_currency">€</string>
+    <string name="common_accept">Aceptar</string>
+    <string name="common_cancel">Cancelar</string>
+    <string name="common_save">Guardar</string>
+    <string name="common_since">Hace</string>
+    <string name="common_day">día</string>
+    <string name="common_days">días</string>
+    <string name="common_week">semana</string>
+    <string name="common_weeks">semanas</string>
+    <string name="common_month">mes</string>
+    <string name="common_months">meses</string>
+    <string name="common_year">año</string>
+    <string name="common_years">años</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_job_view">Detalles de la oferta</string>
+
+</resources>

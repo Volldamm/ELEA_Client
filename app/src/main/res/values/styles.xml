@@ -1,0 +1,162 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--</style>-->
+
+    <style name="WrapBoth">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="WrapHeight">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="LayoutWrap">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <style name="ActivityTitle" parent="style/WrapBoth">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="NormalText" parent="style/WrapBoth">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="NormalTextButton" parent="style/WrapBoth">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- ************************************************** Lista Resultados ************************* -->
+
+
+    <style name="SearchResultHeader" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">22dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">#ff0093ff</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="SearchResultSubHeader" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">#ff0093ff</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="SearchResultTitle" parent="style/WrapBoth">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="SearchResultSubTitle" >
+        <!--<item name="android:textAppearance">?android:attr/textAppearanceLarge</item>-->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/holo_blue_light</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:layout_below">@id/searchResultTitle</item>
+    </style>
+
+    <style name="SearchResultSinceWhen" >
+        <!--<item name="android:textAppearance">?android:attr/textAppearanceLarge</item>-->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/sinceWhen</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:layout_below">@id/searchResultSubTitle</item>
+    </style>
+
+    <style name="SearchResultStar" parent="style/WrapBoth">
+        <item name="android:button">@android:drawable/btn_star</item>
+        <item name="android:layout_toLeftOf">@id/searchResultEmail</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+
+
+    <style name="SearchResultEmail" parent="style/WrapBoth">
+        <item name="android:src">@drawable/ic_email</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+
+    <style name="SearchResultEdit" parent="style/WrapBoth">
+        <item name="android:src">@drawable/ic_edit_icon</item>
+        <item name="android:layout_toLeftOf">@id/searchResultDelete</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+
+    <style name="SearchResultDelete" parent="style/WrapBoth">
+        <item name="android:src">@drawable/ic_trash_icon</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+
+    <!-- ************************************************** FIN Lista Resultados ************************* -->
+
+    <style name="LinearLayoutHeader" parent="style/WrapBoth">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="JobViewRowHeader" parent="style/WrapBoth">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="JobViewRowDetail" parent="style/WrapBoth">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+</resources>
